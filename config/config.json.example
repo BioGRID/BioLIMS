@@ -1,0 +1,47 @@
+{
+    "DB" : {
+        "DB_HOST"                       : "DATABASE HOST NAME OR IP ADDRESS",
+        "DB_USER"                       : "DATABASE USERNAME",
+        "DB_PORT"                       : "DATABSE PORT",
+        "DB_PASS"                       : "DATABASE PASSWORD",
+        "DB_QUICK"                      : "DATABASE FOR QUICK ANNOTATION",
+        "DB_MAIN"                       : "DATABASE FOR BIOLIMS",
+		"DB_IMS"                        : "DATABASE FOR IMS"
+    },
+    
+    "WEB" : {
+        "WEB_URL"                       : "WEB URL FOR YOUR INSTALLATION",
+		"WEB_SUBFOLDER"                 : "",
+        "WEB_NAME"                      : "BioLIMS WEBSITE",
+        "WEB_NAME_ABBR"                 : "BioLIMS",
+        "WEB_DESC"                      : "The BioLIMS is a platform for the management and processing Biological LIMS data",
+        "WEB_KEYWORDS"                  : "keyword1, keyword2, keyword3",
+        "OWNER_NAME"                    : "TyersLab.com",
+        "OWNER_URL"                     : "http://www.tyerslab.com",
+        "ADMIN_EMAIL"                   : "admin@email",
+        "WIKI_URL"                      : "https://github.com/BioGRID/BioLIMS",
+		"VERSION"                       : "0.0.1Alpha"
+    },
+    
+    "DIRECTORIES" : {
+        "BASE_PATH"                     : "FULL PATH TO YOUR SITE DIRECTORY",
+        "WEB_DIR"                       : "www",
+        "APP_DIR"                       : "app",
+        "CSS_DIR"                       : "css",
+        "JS_DIR"                        : "js",
+        "IMG_DIR"                       : "img",
+        "SCRIPT_DIR"                    : "scripts",
+        "TEMPLATE_DIR"                  : "templates",
+        "INC_DIR"                       : "inc",
+		"UPLOAD_DIR"					: "uploads",
+		"UPLOAD_TMP_DIR"				: "tmp",
+		"UPLOAD_PROCESSED_DIR"			: "processed"
+    },
+    
+    "SESSION" : {
+         "SESSION_NAME"                 : "BIOLIMS_USER",
+         "PERSISTENT_TIMEOUT"           : 604800,
+         "COOKIE_NAME"                  : "BIOLIMS"
+    }
+
+}

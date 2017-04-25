@@ -1,0 +1,37 @@
+{
+  "name": "ORCA",
+  "version": "0.0.1",
+  "description": "This directory contains the entirety of the BioLIMS Application.",
+  "main": "www/index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "./bin/compileLess.sh",
+    "copy-modules": "./bin/copyModules.sh",
+    "copy-js": "./bin/copyJS.sh",
+    "copy-scripts": "./bin/copyScripts.sh",
+    "create-directories": "./bin/createDirectories.sh",
+    "build": "npm run create-directories && npm run build-css && npm run copy-modules && npm run copy-js && npm run copy-scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BioGRID/ORCA"
+  },
+  "author": "BioGRID <biogridadmin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BioGRID/ORCA/issues"
+  },
+  "dependencies": {
+    "alertifyjs": "^1.8.0",
+    "bootstrap": "~3.3.6",
+    "bootstrap-datepicker": "^1.6.4",
+    "datatables.net": "~1.10.11",
+    "datatables.net-bs": "~1.10.11",
+    "dropzone": "^4.3.0",
+    "font-awesome": "^4.5.0",
+    "formvalidation": "^0.6.2-dev",
+    "jquery": "~2.2.0",
+    "qtip2": "~3.0.3"
+  },
+  "devDependencies": {}
+}

@@ -30,7 +30,7 @@
     "dropzone": "^4.3.0",
     "font-awesome": "^4.5.0",
     "formvalidation": "^0.6.2-dev",
-    "jquery": "~2.2.0",
+    "jquery": "~3.4.1",
     "qtip2": "~3.0.3"
   },
   "devDependencies": {}
